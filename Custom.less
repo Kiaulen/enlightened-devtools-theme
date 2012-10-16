@@ -1,9 +1,7 @@
 /**********************************************/
 /*
-/* mnml Theme for Chrome DevTools by Michael P. Pfeiffer
-/*
-/* Based on a Gist by Ben Truyman. Further attr:
-/* https://gist.github.com/3040634
+/* enlightened Theme for Chrome DevTools by Vincent Mac
+/* Forked from mnml Theme for Chrome DevTools by Michael P. Pfeiffer
 /*
 /**********************************************/
 
@@ -26,20 +24,25 @@
 @statusbar-text:        darken(#fff,60%);
 @statusbar-text-active: darken(#fff,15%);
 
+//sidebar
+@sidebar-font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
+@sidebar-background:  #242424;
+@sidebar-color:       #9b71ec;
+
 // html
-@html-attribute-name:  #BBDE57;
-@html-attribute-value: #E4FF9B;
+@html-attribute-name:  #66d9ef;
+@html-attribute-value: #A6E32D;
 @html-comment:         #7C7C7C;
 @html-js-node:         #C2C3C3;
-@html-link:            #E3B959;
-@html-tag:             #E3584D;
+@html-link:            #6be1ba;
+@html-tag:             #2499DA;
 @html-text-node:       #C2C3C3;
 
 // css
 @css-comment:      #7C7C7C;
 @css-keyword:      #DB925F;
 @css-number:       #DB925F;
-@css-property:     #EEC574;
+@css-property:     #30c8e6;
 @css-selector:     #BBDE57;
 @css-special-rule: #B094BB;
 @css-string:       #B5BC67;
@@ -176,10 +179,19 @@
     }
 
     
+    //Sidebar Styles
+    .styles-section, .monospace {
+      font-family: @sidebar-font-family !important;
+    }
+
+    .selector-matches {
+      color: @sidebar-color !important;
+    }
+    
     //Console Message Styles
     
     #console-messages {
-      font-family: 'DroidSansMono', Menlo, monospace !important;
+      font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
       background: @background
     }
     

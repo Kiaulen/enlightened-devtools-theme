@@ -1,9 +1,7 @@
 /**********************************************/
 /*
-/* mnml Theme for Chrome DevTools by Michael P. Pfeiffer
-/*
-/* Based on a Gist by Ben Truyman. Further attr:
-/* https://gist.github.com/3040634
+/* enlightened Theme for Chrome DevTools by Vincent Mac
+/* Forked from mnml Theme for Chrome DevTools by Michael P. Pfeiffer
 /*
 /**********************************************/
 #-webkit-web-inspector ::selection {
@@ -92,8 +90,15 @@
   color: #d9d9d9 !important;
   background: #333 !important;
 }
+#-webkit-web-inspector .styles-section,
+#-webkit-web-inspector .monospace {
+  font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
+}
+#-webkit-web-inspector .selector-matches {
+  color: #9b71ec !important;
+}
 #-webkit-web-inspector #console-messages {
-  font-family: 'DroidSansMono', Menlo, monospace !important;
+  font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
   background: #1d1f21;
 }
 #-webkit-web-inspector #console-messages a {
@@ -197,13 +202,13 @@
   color: #7c7c7c !important;
 }
 #-webkit-web-inspector .webkit-html-tag {
-  color: #e3584d !important;
+  color: #2499da !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-name {
-  color: #bbde57 !important;
+  color: #66d9ef !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #e4ff9b !important;
+  color: #a6e32d !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
   color: #c2c3c3 !important;
@@ -213,7 +218,7 @@
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
-  color: #e3b959 !important;
+  color: #6be1ba !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
   color: #7c7c7c !important;
@@ -223,7 +228,7 @@
   color: #bbde57 !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #eec574 !important;
+  color: #30c8e6 !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
   color: #db925f !important;
