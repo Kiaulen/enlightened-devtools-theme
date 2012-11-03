@@ -1,0 +1,68 @@
+// timeline.less
+
+// Timeline
+#timeline-overview-sidebar {
+  background: @toolbar-bg !important;
+}
+
+#timeline-overview-sidebar .sidebar-tree-item{
+  color: @timeline-title !important;
+}
+#timeline-overview-sidebar .sidebar-tree-item.selected{
+  color: white !important;
+}
+
+#timeline-overview-separator {
+  // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(253, 253, 253)), to(rgb(213, 213, 213)));
+  // border-top: 1px solid rgb(140, 140, 140);
+  // border-bottom: 1px solid rgb(115, 115, 115);
+  background: @toolbar-bg !important;
+  border-top: 1px solid @toolbar-border-top !important;
+  border-bottom: 1px solid @toolbar-border-bottom !important;
+}
+
+// .timeline-column {
+//   background: @toolbar-bg !important;
+// }
+//   @toolbar-bg: -webkit-linear-gradient(#555, #333);
+// @toolbar-bg-active: -webkit-linear-gradient(#444, #333);
+// @toolbar-border-top: #C96666;
+// @toolbar-border-bottom: #444;
+
+// timeline popover
+.timeline-details-title {
+  color: @timeline-title;
+}
+
+.timeline-details {
+  color: white;
+}
+
+.timeline-details-row-title {
+  color: @details-title;
+}
+
+.timeline-details-row-data {
+  color: @details-data;
+}
+
+.timeline-graph-side.even {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.resources-dividers-label-bar {
+  background-color: darken(@sidebar-background, 10%) !important;
+}
+
+// .timeline .timeline-grid-header .resources-dividers-label-bar {
+  
+// }
+
+.resources-dividers-label {
+  // color: lighten(@sidebar-text, 5%) !important;
+  color: @sidebar-text !important;
+}
+
+.timeline-tree-item .data.dimmed {
+  color: darken(@details-data, 25%) !important;
+}
