@@ -41,3 +41,18 @@
 .storage-empty-view {
   color: white;
 }
+
+// Cookies Table
+.data-grid th {
+  background-image: none !important;
+  background: @toolbar-bg !important; 
+}
+
+// .data-grid table.data tr.revealed {
+//   // background-color: darken(@sidebar-background, 5%) !important;
+// }
+.data-grid table.data {
+  // background-color: darken(@sidebar-background, 5%) !important;
+  // background-image: -webkit-gradient(linear, left top, left bottom, from(@sidebar-background), color-stop(0.5, black), color-stop(0.5, rgb(234, 243, 255)), to(rgb(234, 243, 255))) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(0.5, black), color-stop(0.5, @sidebar-background), to(@sidebar-background)) !important;
+}
