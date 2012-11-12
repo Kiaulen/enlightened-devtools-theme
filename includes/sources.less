@@ -35,6 +35,7 @@ li.hovered:not(.selected) .selection {
   color: @sidebar-text;
 }
 
+.tabbed-pane-header,
 .navigator-tabbed-pane .tabbed-pane-header {
   background-image: @toolbar-bg !important;
 }
@@ -58,10 +59,23 @@ li.hovered:not(.selected) .selection {
   color: @sidebar-text !important;
 }
 
+.tabbed-pane-content {
+  background: @background !important;
+  color: @sidebar-text !important;
+}
+
 .outline-disclosure li.selected .selection {
   background-color: @selectionRow !important;
 }
 
 .outline-disclosure ol:focus li.selected .selection {
   background-color: rgb(56, 121, 217) !important;  // keep default blue selection
+}
+
+.header-toggle:hover {
+  color: @html-link !important;
+}
+
+.header-value.source-code {
+  color: white !important;
 }

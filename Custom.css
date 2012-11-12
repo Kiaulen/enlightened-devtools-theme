@@ -315,6 +315,7 @@
 #-webkit-web-inspector .base-navigator-tree-element-title {
   color: #c2c3c3;
 }
+#-webkit-web-inspector .tabbed-pane-header,
 #-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header {
   background-image: -webkit-linear-gradient(#555555, #333333) !important;
 }
@@ -332,11 +333,21 @@
 #-webkit-web-inspector .tabbed-pane-header-tab-close-button {
   color: #c2c3c3 !important;
 }
+#-webkit-web-inspector .tabbed-pane-content {
+  background: #1d1f21 !important;
+  color: #c2c3c3 !important;
+}
 #-webkit-web-inspector .outline-disclosure li.selected .selection {
   background-color: #312164 !important;
 }
 #-webkit-web-inspector .outline-disclosure ol:focus li.selected .selection {
   background-color: #3879d9 !important;
+}
+#-webkit-web-inspector .header-toggle:hover {
+  color: #6be1ba !important;
+}
+#-webkit-web-inspector .header-value.source-code {
+  color: white !important;
 }
 #-webkit-web-inspector .webkit-html-comment {
   color: #7c7c7c !important;
