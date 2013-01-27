@@ -549,8 +549,9 @@
 #-webkit-web-inspector .resource-view .infoList dd {
   color: #c2c3c3;
 }
-#-webkit-web-inspector .resource-view.font {
-  color: white;
+#-webkit-web-inspector .resource-view.font,
+#-webkit-web-inspector .resource-view.html iframe body {
+  color: white !important;
 }
 #-webkit-web-inspector .text-editor-lines {
   background-color: #111213 !important;
@@ -571,6 +572,19 @@
 }
 #-webkit-web-inspector .data-grid table.data {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(0.5, #000000), color-stop(0.5, #1d1f21), to(#1d1f21)) !important;
+}
+#-webkit-web-inspector #settings-screen .help-window-main,
+#-webkit-web-inspector #drawer-contents .help-window-main,
+#-webkit-web-inspector .help-window-outer .tabbed-pane-header {
+  color: white !important;
+  background-color: #1d1f21 !important;
+}
+#-webkit-web-inspector .settings-tab .help-section-title,
+#-webkit-web-inspector .help-key {
+  color: #30c8e6 !important;
+}
+#-webkit-web-inspector .help-key-delimiter {
+  color: #9b71ec !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
   background: #242729 !important;
